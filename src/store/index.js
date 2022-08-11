@@ -1,6 +1,5 @@
 import { BehaviorSubject, combineLatestWith, map } from 'rxjs';
 import axios from 'axios';
-import './index.css';
 
 const store$ = new BehaviorSubject([]);
 const deckStore$ = new BehaviorSubject([]);

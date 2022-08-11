@@ -39,14 +39,7 @@ function App() {
         style={{ width: '100%', margin: '10px auto' }}
       />
       <div className={styles.main}>
-        <pre
-          style={{
-            display: 'flex',
-            flexFlow: 'column wrap',
-            height: '80vh',
-            gap: 2,
-            padding: '0 20px',
-          }}>
+        <pre className={styles.list}>
           {filteredUsers.map((user) => (
             <div
               key={user.id}
