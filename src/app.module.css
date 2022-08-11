@@ -1,0 +1,16 @@
+.deck {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+.deck:not(:first-child) {
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}

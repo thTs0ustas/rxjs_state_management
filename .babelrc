@@ -1,0 +1,19 @@
+{
+  "presets": [["@babel/preset-react", { "runtime": "automatic" }]],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties"],
+    ["@babel/plugin-proposal-export-default-from"],
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "*": "./src/*",
+          "components/*": "./src/components/*",
+          "layouts/*": "./src/layouts/*",
+          "app/*": "src/app/*"
+        }
+      }
+    ]
+  ]
+}
