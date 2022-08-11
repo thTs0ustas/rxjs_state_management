@@ -29,14 +29,13 @@ function App() {
     }
   };
 
-  // console.log(deckStore$.value);
   return (
     <div className="App">
       <input
         type="text"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
-        style={{ width: '100%', margin: '10px auto' }}
+        className={styles.input}
       />
       <div className={styles.main}>
         <pre className={styles.list}>
