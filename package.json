@@ -59,7 +59,7 @@
     "file-saver": "^2.0.5",
     "formik": "^2.2.9",
     "lint-staged": "^13.0.3",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "moment": "^2.29.3",
     "mui-rte": "^2.0.1",
     "process": "^0.11.10",
