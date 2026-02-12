@@ -48,7 +48,7 @@
     "@react-pdf/renderer": "^2.3.0",
     "@reduxjs/toolkit": "^1.8.3",
     "assert": "^2.0.0",
-    "axios": "^1.6.0",
+    "axios": "^1.13.5",
     "axios-mock-adapter": "^1.21.1",
     "babel-plugin-file-loader": "^2.0.0",
     "browserify-zlib": "^0.2.0",
